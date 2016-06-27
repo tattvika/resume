@@ -1,45 +1,31 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('app')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('title', 'Tattvika Resume')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+@section('content')
+<div id="background"></div>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
+<div id="app" class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="masthead clearfix"></div>
+            <div class="inner cover">
+                <h1 class="cover-heading">Tattvika Resume</h1>
+                <p class="lead">
+                    Create your resume, write motivation letter and send private link 
+                    to potential company you want to work.
+                </p>
+                <div class="lead">
+                    <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+                </div>
+            </div>
+            <div class="mastfoot">
+                <div class="inner">
+                    Created with love by Tattvika SIA
+                </div>
             </div>
         </div>
-    </body>
-</html>
+    </div>
+</div>
+
+@endsection

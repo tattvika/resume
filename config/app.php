@@ -204,4 +204,6 @@ return [
 
     ],
 
+    'ga-tracking-id' => env('GA-TRACKING-ID', 'UA-XXXXX-Y'),
+
 ];
