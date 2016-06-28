@@ -21,7 +21,7 @@
             </div>
             <div class="mastfoot">
                 <div class="inner">
-                    Created with love by Tattvika SIA
+                    Created with passion by Tattvika SIA
                 </div>
             </div>
         </div>
